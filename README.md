@@ -26,5 +26,8 @@ An adapter to M2 key M for a NVMe drive:
 
 Fujitsu FUTRO S940 supports NVMe in the PoE connector.
 
+## See also
+[Fujitsu Futro s920, the second ethernet connector](https://github.com/Krysio/Fujitsu-Futro-s920-second-ethernet)
+
 ## License
 This project is licensed under the MIT License. Feel free to use and modify the content.
