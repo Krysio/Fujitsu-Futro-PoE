@@ -4,6 +4,8 @@ This repository documents the pinout of the 20-pin PoE connector found in Fujits
 
 ## 20-pin Connector Pin Layout
 
+The PoE connector has a 2 mm pitch. I used a blue 20-pin USB 3.0 connector for my adapter.
+
 Below is the pin layout for the PoE connector, which includes both power, PCIe, and unknown pins. This can be useful for modding or repurposing the connector for custom PCIe 1x expansion.
 
 |   |   |   |   |   |   |   |   |   |   |
@@ -12,7 +14,17 @@ Below is the pin layout for the PoE connector, which includes both power, PCIe, 
 | GND     | TX-      | TX+   | GND     | RX-     | RX+     | GND     | CLK-    | CLK+    | GND     |
 
 ![Pins of PoE connector](./FutroPOE.jpg?raw=true "Pins of PoE connector")
+
+## Examples
+
 ![A test adapter made with a motherboard USB3 connector](./FutroUSB3Connector.jpg?raw=true "A test adapter made with a motherboard USB3 connector")
+![An adapter to PCIe 1x connector](./Adapter2PCIe1x.jpg?raw=true "An adapter to PCIe 1x connector")
+
+An adapter to M2 key M for a NVMe drive:
+
+[Router/firewall/NAS DIY na terminalu Fujitsu FUTRO S940. Czy się uda?](https://eko.one.pl/forum/viewtopic.php?pid=312550#p312550)
+
+Fujitsu FUTRO S940 supports NVMe in the PoE connector.
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify the content.
