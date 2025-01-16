@@ -15,6 +15,8 @@ Below is the pin layout for the PoE connector, which includes both power, PCIe, 
 
 ![Pins of PoE connector](./FutroPOE.jpg?raw=true "Pins of PoE connector")
 
+The `PowrGD#` signal should be used as the `PERST#` signal.
+
 ## Examples
 
 ![A test adapter made with a motherboard USB3 connector](./FutroUSB3Connector.jpg?raw=true "A test adapter made with a motherboard USB3 connector")
