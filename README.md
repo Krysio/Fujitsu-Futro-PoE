@@ -16,6 +16,7 @@ Below is the pin layout for the PoE connector, which includes both power, PCIe, 
 ![Pins of PoE connector](./FutroPOE.jpg?raw=true "Pins of PoE connector")
 
 The `PowrGD#` signal should be used as the `PERST#` signal.
+
 When the device is running, a 19V voltage appears on the pins labeled `PoE 19V`.
 
 ## Power supply via PoE
