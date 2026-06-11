@@ -10,7 +10,7 @@ Below is the pin layout for the PoE connector, which includes both power, PCIe, 
 
 |   |   |   |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|---|---|---|
-| PowrGD# | Vcc 3.3V | Wake# | PoE 19V | PoE 19V | PoE 19V | MOSFET SOT‑23 "KJA B8" GATE | Unknown - CPU connected | MOSFET SOT‑23 "KJA B8" SOURCE | Unknown |
+| PowrGD# | Vcc 3.3V | Wake# | PoE 19V | PoE 19V | PoE 19V | MOSFET SOT‑23 "KJA B8" GATE | Unknown - CPU connected, FT3 (769-BGA) pin 448 | MOSFET SOT‑23 "KJA B8" SOURCE | Unknown |
 | GND     | TX-      | TX+   | GND     | RX-     | RX+     | GND     | CLK-    | CLK+    | GND     |
 
 ![Pins of PoE connector](./FutroPOE.jpg?raw=true "Pins of PoE connector")
